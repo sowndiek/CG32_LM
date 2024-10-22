@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Computer Graphics</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+  <canvas id="myCanvas" width="200" height="100"
+  style="border:1px solid #c3c3c3;">
+  Your browser does not support the canvas element.
+  </canvas>
+  <script>
+  ctx.beginPath();
+  var canvas = document.getElementById("myCanvas")
+  var ctx = canvas.getContext("2d")
+  ctx.moveTo(200,0); ctx.lineTo(200,400);
+  ctx.moveTo(0,200); ctx.lineTo(400,200);
+
+  ctx.stroke()
+  </script>
+    <main>
+        <h1>Lytvyn Mariia Ih</h1>  
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

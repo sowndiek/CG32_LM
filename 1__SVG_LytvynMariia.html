@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .rectangle {
+            position: relative;
+            width: 200px;
+            height: 150px;
+            margin: 50px auto;
+            border: 2px solid black;
+            background-color: #f0f0f0;
+        }
+
+        .x-axis {
+            position: absolute;
+            top: 50%; 
+            left: 0;
+            width: 100%; 
+            height: 1px;
+            background-color: red;
+        }
+
+        .y-axis {
+            position: absolute;
+            left: 50%; 
+            top: 0;
+            height: 100%; 
+            width: 1px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="rectangle">
+    <div class="x-axis"></div>
+    <div class="y-axis"></div>
+</div>
+
+</body>
+</html>
